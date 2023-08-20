@@ -14,7 +14,11 @@
     <RepositoryUrl>https://github.com/nkbooth/CallsignToolkit</RepositoryUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Company>N1CCK</Company>
+    <PackageID>CallsignToolkit.CallbookLookup</PackageID>
+    <Version>1.0.0</Version>
+    <Authors>Nick Booth N1CCK</Authors>
     <AssemblyVersion>1.0.0</AssemblyVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
