@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>Callsign Toolkit</Title>
+    <Authors>Nick Booth (N1CCK)</Authors>
+    <Description>Callsign Toolkit for programs relating to the Amateur Radio service.</Description>
+    <Copyright>2023 Nick Booth N1CCK</Copyright>
+    <PackageProjectUrl>https://github.com/nkbooth/CallsignToolkit</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/license/rpl-1-5/</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/nkbooth/CallsignToolkit</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>N1CCK</Company>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="RestSharp.Serializers.Xml" Version="110.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CallbookLookup\Ham365\" />
+    <Folder Include="CallbookLookup\QRZCQ\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+</Project>
