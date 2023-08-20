@@ -1,0 +1,5 @@
+.idea/**
+CallsignToolkit/bin/**
+CallsignToolkit/obj/**
+CallsignToolkitTests/bin/**
+CallsignToolkitTests/obj/**
