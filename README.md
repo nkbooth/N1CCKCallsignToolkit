@@ -1,3 +1,5 @@
+> **Moved to Codeberg:** https://codeberg.org/alatartheblue/N1CCKCallsignToolkit — this GitHub copy is archived and no longer updated.
+
 ﻿# Callsign Toolkit by N1CCK
 *A collection of tools for amateur radio operators to look up and display calsign and callbook return information in a standardized manner*
 
